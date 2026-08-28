@@ -1,21 +1,29 @@
 {
-  "versao": "1.1",
+  "versao": "2.0",
   "base_conhecimento": [
     {
-      "termo": "Termo X",
-      "descricao": "Esta é a descrição do Termo X."
+      "termo": "Object.keys",
+      "descricao": "Cria um array contendo apenas as chaves (keys) do objeto. Ex: Object.keys(usuario)"
     },
     {
-      "termo": "JS Básico",
-      "descricao": "Conceitos fundamentais de JavaScript."
+      "termo": "Object.values",
+      "descricao": "Cria um array contendo apenas os valores do objeto. Ex: Object.values(usuario)"
     },
     {
-      "termo": "Servidor Python",
-      "descricao": "Comando: python -m http.server 8080"
+      "termo": "Object.entries",
+      "descricao": "Transforma o objeto em um array de arrays [chave, valor]. Ex: Object.entries(usuario)"
     },
     {
-      "termo": "Codex-CDN",
-      "descricao": "Arquitetura de nuvem descentralizada."
+      "termo": "hasOwnProperty",
+      "descricao": "Verifica se uma chave específica existe dentro do objeto. Retorna booleano."
+    },
+    {
+      "termo": "Object.assign",
+      "descricao": "Copia ou mescla propriedades de um ou mais objetos para um destino."
+    },
+    {
+      "termo": "Object.freeze",
+      "descricao": "Congela o objeto impedindo que suas propriedades sejam alteradas ou adicionadas."
     }
   ]
 }
