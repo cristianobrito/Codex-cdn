@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    const CDN_URL = 'https://cristianobrito.github.io/codex-cdn/conteudo.json';
+    const CDN_URL = 'https://cristianobrito.github.io/Codex-cdn/conteudo.json';
 
     async function carregarCodex() {
         try {
