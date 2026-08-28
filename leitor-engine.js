@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    const CDN_URL = 'https://cristianobrito.github.io/Codex-cdn/conteudo.json';
+    const CDN_URL = 'https://cristianobrito.github.io/codex-cdn/conteudo.json';
 
     async function carregarCodex() {
         try {
@@ -9,8 +9,6 @@
             if (!resposta.ok) throw new Error('Erro ao buscar CDN: ' + resposta.status);
             
             const dados = await resposta.json();
-            console.log(`[Codex-CDN] Versão ${dados.versao} carregada com sucesso!`);
-            
             renderizarNaPagina(dados.base_conhecimento);
         } catch (erro) {
             console.error('[Codex-CDN] Falha:', erro);
@@ -18,7 +16,6 @@
     }
 
     function renderizarNaPagina(itens) {
-        // Cria um container visual na página para exibir os dados do CDN
         let container = document.getElementById('codex-visor');
         if (!container) {
             container = document.createElement('div');
@@ -43,7 +40,6 @@
         container.innerHTML = html;
     }
 
-    // Executa assim que o DOM estiver pronto
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', carregarCodex);
     } else {
