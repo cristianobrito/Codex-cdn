@@ -1,1 +1,12 @@
-
+{
+  "versao": "1.0.0",
+  "autor": "Cristiano",
+  "base_conhecimento": [
+    {
+      "termo": "teste",
+      "secao": "Verificacao de CDN",
+      "descricao": "O CDN do Codex esta funcionando perfeitamente.",
+      "codigo": "console.log('Codex CDN Online!');"
+    }
+  ]
+}
