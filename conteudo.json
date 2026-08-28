@@ -1,12 +1,21 @@
 {
-  "versao": "1.0.0",
-  "autor": "Cristiano",
+  "versao": "1.1",
   "base_conhecimento": [
     {
-      "termo": "teste",
-      "secao": "Verificacao de CDN",
-      "descricao": "O CDN do Codex esta funcionando perfeitamente.",
-      "codigo": "console.log('Codex CDN Online!');"
+      "termo": "Termo X",
+      "descricao": "Esta é a descrição do Termo X."
+    },
+    {
+      "termo": "JS Básico",
+      "descricao": "Conceitos fundamentais de JavaScript."
+    },
+    {
+      "termo": "Servidor Python",
+      "descricao": "Comando: python -m http.server 8080"
+    },
+    {
+      "termo": "Codex-CDN",
+      "descricao": "Arquitetura de nuvem descentralizada."
     }
   ]
 }
